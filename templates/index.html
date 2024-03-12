@@ -1,0 +1,22 @@
+<html>
+<head>
+
+</head>
+<body>
+    <h1> HOUSE PRICE PREDICTION</h1>
+    <form action="/predict" method="POST">
+        <label>MedInc</label><input type="text" name ='MedInc'><br> <br>
+        <label>HouseAge</label><input type="text" name ='HouseAge'>
+        <label>AveRooms</label><input type="text" name ='AveRooms'><br> <br>
+        <label>AveBedrms</label><input type="text" name ='AveBedrms'>
+        <label>Population</label><input type="text" name ='Population'><br> <br>
+        <label>AveOccup</label><input type="text" name ='AveOccup'>
+        <label>Latitude</label><input type="text" name ='Latitude'><br> <br>
+        <label>Longitude</label><input type="text" name ='Longitude'>
+        
+        <input type="Submit" value="PREDICT"> {{pred}}
+    
+    </form>
+
+</body>    
+</html>
